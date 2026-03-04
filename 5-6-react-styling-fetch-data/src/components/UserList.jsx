@@ -6,7 +6,7 @@ function UserList({ users, onUserClick }) {
   // TODO 1.3: Empty state — if users.length === 0, RETURN the exact <Alert variant="info">...</Alert>
   if (users.length === 0) {
     return (
-      <Alert>
+      <Alert variant = "info">
         {/* TODO 1.3: Change this Alert to variant="info" and exact message from lab instructions */}
         No users found matching your search criteria.
       </Alert>
